@@ -6,5 +6,5 @@ import com.ProjetoLoginLaura.Entity.Login;
 import com.ProjetoLoginLaura.Entity.Produtos;
 
 public interface ProdutosRepository extends JpaRepository<Produtos, Long> {
-	Login findByUsername(String username);
+
 }
